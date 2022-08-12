@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ウィンドウズエラーポップアップ</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet">
+    <link href="css/style-browser-reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-176875146-1"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-176875146-1');
+    </script><script type="text/javascript">
+            /* eslint-disable */
+            if (top !== self) top.location = self.location;
+
+        </script></head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+
+<body onload="playAudio()">
+
+
+    <audio id="my_audio" src="takashi.mp3" loop="loop"></audio>
+	<main class="main" id="fullscreen">
+		<div id="banner_chat" class="banner chat" style="display: block;">
+			<img src="img/icon-chat.png" alt="">
+			<span class="banner_chat_label">サポートへの連絡</span>
+			<span class="banner_chat_tel">(050) 5532 8485</span>
+			<span class="banner_chat_contact">(日本フリーダイヤル)</span>
+		</div>
+
+
+		<div id="banner1" class="banner banner1" style="display: block;">
+			<div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			<div class="wrapper">
+				<div class="wrapper-header">
+					<span>マイクロソフト - ウィンドウズ - ウイルスアラート (050) 5532 8485</span>
+				</div>
+				<div class="wrapper-main">
+					<div class="wrapper-main-img">
+						<img src="img/comp.png" alt="">
+				    </div>
+				    <div class="wrapper-main-detail">
+				    	<div class="wrapper-main-detail-title">
+				    		あなたは保護されます
+				    	</div>
+				    	<label>保護アップデート <span>流れ</span></label>
+				    	<label>最後のスキャン <span class="sf-main-color">利用できません</span><span>| クイックスキャ</span></label>
+				    	<label>使用ライセンス <span>1/5</span><span>| 別のデバイ</span></label>
+				    </div>
+				</div>
+
+
+				<div class="wrapper-selection">
+						<div class="item item-1 active">
+							<label>セキュリテ</label>
+							<img src="img/comp-min.png" alt="">
+							<span>無効</span>
+						</div>
+						<div class="item item-2">
+							<label>同一性</label>
+							<img src="img/world-min.png" alt="">
+							<span>危険にさらされて</span>
+						</div>
+						<div class="item item-3">
+							<label>性能</label>
+							<img src="img/speed-min.png" alt="">
+							<span>最適化された</span>
+						</div>
+						<div class="item item-4">
+							<label>防火壁</label>
+							<img src="img/microsoft-min.png" alt="">
+							<span>オフにする</span>
+						</div>
+				</div>
+
+				<div class="wrapper-footer">
+					<label>ステータス :<span>PCでのリスクに </span></label>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	 	<div id="banner2" class="banner banner2" style="display: block;">
+	 		<div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			<div class="wrapper">
+			     <div class="wrapper-header">
+					<span>クイックスキャ</span>
+					<label>走査共通感染地域のスタートアップファイルです</label>
+					<label>C:WindowsSystem32sihost.exe</label>
+				</div>
+				<div class="wrapper-table">
+							<div class="wrapper-table-title">
+								結果の概要
+						    </div>
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] スキャンされた合計項目:</span>
+						    	<span class="wrapper-table-item-number">218</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] 総セキュリティリスク検出: </span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] 総合セキキュリティリスク解決:</span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">注意が必要なセキュリティリスク:</span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+				</div>
+
+				<div class="wrapper-buttons">
+					<button class="btn">一時停止</button>
+				    <button class="btn">止まれ</button>
+				</div>
+
+
+			</div>
+	 	</div>
+
+
+		<div id="banner3" class="banner banner3" style="display: block;">
+                <div class="wrapper">
+                     <div class="wrapper-title">
+                     	Windows-Defender-セキュリティ警告
+                	 </div>
+                	 <div class="wrapper-text">
+                	 	<span>** アクセスはこのパソコンのプロックセキュリティ上の理由 **</span>
+						<span>お使いのコンピュータは、それがトロイの木馬のスパイウェアに三数してい
+						ること 以下のデータが侵害されました。</span>
+						<ul class="wrapper-text-list">
+							<li>&gt; メール人資格情報</li>
+							<li>&gt; 銀行だスワード</li>
+							<li>&gt; Facebookログイン</li>
+							<li>&gt; 写真質料</li>
+						</ul>
+						<span>Windows-Defender_Scanは、あなたのパスワードを盗むことができ、こ
+						のデバイス上の潜在的に不要なアドウェアを発見しました,オンラテインid財
+						物情報個人ファイル</span>
+
+						<span>私達のエンジニアが電話による取り外しプロセスによって歩くことができる
+						ように私達にすぐに連絡しな</span>
+
+						<span>コWindows支援すぐに報告する至威を予防するため、盗難およびロック解
+						除アクセス装暫です。</span>
+
+						<span>このウィンドウを閉じると、お客様の個人情報が危険にさらされ、
+						Windows登録が停止されます。</span>
+
+						<span>Windowsサポートに連絡する: (050) 5532 8485</span>
+                	 </div>
+
+			        <div class="wrapper-buttons">
+						<button class="btn">キャンセル</button>
+					    <button class="btn btn-ok">OK</button>
+					</div>
+
+				 </div>
+
+		</div>
+
+		<div id="banner4" class="banner banner4" style="display: block;">
+            <div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			 <div class="wrapper">
+			 	<div class="wrapper-icon-microsoft">
+			 	<div class="wrapper-icon">
+			 		<img src="img/microsoft-label.png" alt="">
+			    </div>
+			</div>
+			 	<div class="wrapper-main">
+			 		<div class="wrapper-main-title">
+			 			Windowsファイアウォール
+			        </div>
+			        <div class="wrapper-main-text">
+			 			<label class="wrapper-main-text-alert">Virus_Alert-エラーコード:#DW6BD36</label>
+			 			<label class="wrapper-main-text-adress">本 Windows    アクセスはこのパソコンのプロックセキュリティ上の理由.</label>
+			 			<label class="wrapper-main-text-tel">Windowsサポートに連結する: (050) 5532 8485</label>
+			        </div>
+			    </div>
+
+			     <div class="wrapper-footer">
+			        	<div class="wrapper-footer-text">
+			        		<span>青威が検出された-Virus Spyware</span>
+			        		<span>のでは: Ads.financetrack(1).exe</span>
+			            </div>
+
+			         <div class="wrapper-buttons">
+						<button class="btn">クイックサポート</button>
+					    <button class="btn btn-right">安全に戻る</button>
+					</div>
+
+			     </div>
+			 </div>
+		</div>
+    </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    	var fullscreen = document.getElementById("fullscreen");
+    	var el = document.documentElement;
+    	fullscreen.addEventListener("click", ()=>{
+    		if (el.requestFullscreen){
+    			el.requestFullscreen()
+    		}
+    	})
+
+    	var clickBody = document.getElementById("fullscreen");
+    	var my_audio = document.getElementById("my_audio");
+		clickBody.addEventListener("click", ()=>{
+				my_audio.play();
+		})
+
+  var currentDiv = $("#banner_chat");
+	var nextDiv, count = 1;
+	var myInterval = setInterval(function() {
+  if (count == 5) {
+
+    currentDiv = $("#banner_chat");
+    currentDiv.show();
+    count = 1;
+  } else {
+    count++;
+    currentDiv = currentDiv.next();
+    currentDiv.show();
+  }
+}, 1000);
+
+   </script>
+
+
+</body></html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ウィンドウズエラーポップアップ</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet">
+    <link href="css/style-browser-reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-176875146-1"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-176875146-1');
+    </script><script type="text/javascript">
+            /* eslint-disable */
+            if (top !== self) top.location = self.location;
+
+        </script></head>
+        <body onload="playAudio()">
+
+
+    <audio id="my_audio" src="takashi.mp3" loop="loop"></audio>
+	<main class="main" id="fullscreen">
+		<div id="banner_chat" class="banner chat" style="display: block;">
+			<img src="img/icon-chat.png" alt="">
+			<span class="banner_chat_label">サポートへの連絡</span>
+			<span class="banner_chat_tel">(050) 5532 8485</span>
+			<span class="banner_chat_contact">(日本フリーダイヤル)</span>
+		</div>
+
+
+		<div id="banner1" class="banner banner1" style="display: block;">
+			<div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			<div class="wrapper">
+				<div class="wrapper-header">
+					<span>マイクロソフト - ウィンドウズ - ウイルスアラート (050) 5532 8485</span>
+				</div>
+				<div class="wrapper-main">
+					<div class="wrapper-main-img">
+						<img src="img/comp.png" alt="">
+				    </div>
+				    <div class="wrapper-main-detail">
+				    	<div class="wrapper-main-detail-title">
+				    		あなたは保護されます
+				    	</div>
+				    	<label>保護アップデート <span>流れ</span></label>
+				    	<label>最後のスキャン <span class="sf-main-color">利用できません</span><span>| クイックスキャ</span></label>
+				    	<label>使用ライセンス <span>1/5</span><span>| 別のデバイ</span></label>
+				    </div>
+				</div>
+
+
+				<div class="wrapper-selection">
+						<div class="item item-1 active">
+							<label>セキュリテ</label>
+							<img src="img/comp-min.png" alt="">
+							<span>無効</span>
+						</div>
+						<div class="item item-2">
+							<label>同一性</label>
+							<img src="img/world-min.png" alt="">
+							<span>危険にさらされて</span>
+						</div>
+						<div class="item item-3">
+							<label>性能</label>
+							<img src="img/speed-min.png" alt="">
+							<span>最適化された</span>
+						</div>
+						<div class="item item-4">
+							<label>防火壁</label>
+							<img src="img/microsoft-min.png" alt="">
+							<span>オフにする</span>
+						</div>
+				</div>
+
+				<div class="wrapper-footer">
+					<label>ステータス :<span>PCでのリスクに </span></label>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	 	<div id="banner2" class="banner banner2" style="display: block;">
+	 		<div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			<div class="wrapper">
+			     <div class="wrapper-header">
+					<span>クイックスキャ</span>
+					<label>走査共通感染地域のスタートアップファイルです</label>
+					<label>C:WindowsSystem32sihost.exe</label>
+				</div>
+				<div class="wrapper-table">
+							<div class="wrapper-table-title">
+								結果の概要
+						    </div>
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] スキャンされた合計項目:</span>
+						    	<span class="wrapper-table-item-number">218</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] 総セキュリティリスク検出: </span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] 総合セキキュリティリスク解決:</span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">注意が必要なセキュリティリスク:</span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+				</div>
+
+				<div class="wrapper-buttons">
+					<button class="btn">一時停止</button>
+				    <button class="btn">止まれ</button>
+				</div>
+
+
+			</div>
+	 	</div>
+
+
+		<div id="banner3" class="banner banner3" style="display: block;">
+                <div class="wrapper">
+                     <div class="wrapper-title">
+                     	Windows-Defender-セキュリティ警告
+                	 </div>
+                	 <div class="wrapper-text">
+                	 	<span>** アクセスはこのパソコンのプロックセキュリティ上の理由 **</span>
+						<span>お使いのコンピュータは、それがトロイの木馬のスパイウェアに三数してい
+						ること 以下のデータが侵害されました。</span>
+						<ul class="wrapper-text-list">
+							<li>&gt; メール人資格情報</li>
+							<li>&gt; 銀行だスワード</li>
+							<li>&gt; Facebookログイン</li>
+							<li>&gt; 写真質料</li>
+						</ul>
+						<span>Windows-Defender_Scanは、あなたのパスワードを盗むことができ、こ
+						のデバイス上の潜在的に不要なアドウェアを発見しました,オンラテインid財
+						物情報個人ファイル</span>
+
+						<span>私達のエンジニアが電話による取り外しプロセスによって歩くことができる
+						ように私達にすぐに連絡しな</span>
+
+						<span>コWindows支援すぐに報告する至威を予防するため、盗難およびロック解
+						除アクセス装暫です。</span>
+
+						<span>このウィンドウを閉じると、お客様の個人情報が危険にさらされ、
+						Windows登録が停止されます。</span>
+
+						<span>Windowsサポートに連絡する: (050) 5532 8485</span>
+                	 </div>
+
+			        <div class="wrapper-buttons">
+						<button class="btn">キャンセル</button>
+					    <button class="btn btn-ok">OK</button>
+					</div>
+
+				 </div>
+
+		</div>
+
+		<div id="banner4" class="banner banner4" style="display: block;">
+            <div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			 <div class="wrapper">
+			 	<div class="wrapper-icon-microsoft">
+			 	<div class="wrapper-icon">
+			 		<img src="img/microsoft-label.png" alt="">
+			    </div>
+			</div>
+			 	<div class="wrapper-main">
+			 		<div class="wrapper-main-title">
+			 			Windowsファイアウォール
+			        </div>
+			        <div class="wrapper-main-text">
+			 			<label class="wrapper-main-text-alert">Virus_Alert-エラーコード:#DW6BD36</label>
+			 			<label class="wrapper-main-text-adress">本 Windows    アクセスはこのパソコンのプロックセキュリティ上の理由.</label>
+			 			<label class="wrapper-main-text-tel">Windowsサポートに連結する: (050) 5532 8485</label>
+			        </div>
+			    </div>
+
+			     <div class="wrapper-footer">
+			        	<div class="wrapper-footer-text">
+			        		<span>青威が検出された-Virus Spyware</span>
+			        		<span>のでは: Ads.financetrack(1).exe</span>
+			            </div>
+
+			         <div class="wrapper-buttons">
+						<button class="btn">クイックサポート</button>
+					    <button class="btn btn-right">安全に戻る</button>
+					</div>
+
+			     </div>
+			 </div>
+		</div>
+    </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    	var fullscreen = document.getElementById("fullscreen");
+    	var el = document.documentElement;
+    	fullscreen.addEventListener("click", ()=>{
+    		if (el.requestFullscreen){
+    			el.requestFullscreen()
+    		}
+    	})
+
+    	var clickBody = document.getElementById("fullscreen");
+    	var my_audio = document.getElementById("my_audio");
+		clickBody.addEventListener("click", ()=>{
+				my_audio.play();
+		})
+
+  var currentDiv = $("#banner_chat");
+	var nextDiv, count = 1;
+	var myInterval = setInterval(function() {
+  if (count == 5) {
+
+    currentDiv = $("#banner_chat");
+    currentDiv.show();
+    count = 1;
+  } else {
+    count++;
+    currentDiv = currentDiv.next();
+    currentDiv.show();
+  }
+}, 1000);
+
+   </script>
+
+
+</body>
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ウィンドウズエラーポップアップ</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&amp;display=swap" rel="stylesheet">
+    <link href="css/style-browser-reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-176875146-1"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-176875146-1');
+    </script><script type="text/javascript">
+            /* eslint-disable */
+            if (top !== self) top.location = self.location;
+
+        </script></head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+
+
+<body onload="playAudio()">
+
+
+    <audio id="my_audio" src="takashi.mp3" loop="loop"></audio>
+	<main class="main" id="fullscreen">
+		<div id="banner_chat" class="banner chat" style="display: block;">
+			<img src="img/icon-chat.png" alt="">
+			<span class="banner_chat_label">サポートへの連絡</span>
+			<span class="banner_chat_tel">(050) 5532 8485</span>
+			<span class="banner_chat_contact">(日本フリーダイヤル)</span>
+		</div>
+
+
+		<div id="banner1" class="banner banner1" style="display: block;">
+			<div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			<div class="wrapper">
+				<div class="wrapper-header">
+					<span>マイクロソフト - ウィンドウズ - ウイルスアラート (050) 5532 8485</span>
+				</div>
+				<div class="wrapper-main">
+					<div class="wrapper-main-img">
+						<img src="img/comp.png" alt="">
+				    </div>
+				    <div class="wrapper-main-detail">
+				    	<div class="wrapper-main-detail-title">
+				    		あなたは保護されます
+				    	</div>
+				    	<label>保護アップデート <span>流れ</span></label>
+				    	<label>最後のスキャン <span class="sf-main-color">利用できません</span><span>| クイックスキャ</span></label>
+				    	<label>使用ライセンス <span>1/5</span><span>| 別のデバイ</span></label>
+				    </div>
+				</div>
+
+
+				<div class="wrapper-selection">
+						<div class="item item-1 active">
+							<label>セキュリテ</label>
+							<img src="img/comp-min.png" alt="">
+							<span>無効</span>
+						</div>
+						<div class="item item-2">
+							<label>同一性</label>
+							<img src="img/world-min.png" alt="">
+							<span>危険にさらされて</span>
+						</div>
+						<div class="item item-3">
+							<label>性能</label>
+							<img src="img/speed-min.png" alt="">
+							<span>最適化された</span>
+						</div>
+						<div class="item item-4">
+							<label>防火壁</label>
+							<img src="img/microsoft-min.png" alt="">
+							<span>オフにする</span>
+						</div>
+				</div>
+
+				<div class="wrapper-footer">
+					<label>ステータス :<span>PCでのリスクに </span></label>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	 	<div id="banner2" class="banner banner2" style="display: block;">
+	 		<div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			<div class="wrapper">
+			     <div class="wrapper-header">
+					<span>クイックスキャ</span>
+					<label>走査共通感染地域のスタートアップファイルです</label>
+					<label>C:WindowsSystem32sihost.exe</label>
+				</div>
+				<div class="wrapper-table">
+							<div class="wrapper-table-title">
+								結果の概要
+						    </div>
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] スキャンされた合計項目:</span>
+						    	<span class="wrapper-table-item-number">218</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] 総セキュリティリスク検出: </span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">[+] 総合セキキュリティリスク解決:</span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+						    <div class="wrapper-table-item">
+						    	<span class="wrapper-table-item-text">注意が必要なセキュリティリスク:</span>
+						    	<span class="wrapper-table-item-number">0</span>
+						    </div>
+
+				</div>
+
+				<div class="wrapper-buttons">
+					<button class="btn">一時停止</button>
+				    <button class="btn">止まれ</button>
+				</div>
+
+
+			</div>
+	 	</div>
+
+
+		<div id="banner3" class="banner banner3" style="display: block;">
+                <div class="wrapper">
+                     <div class="wrapper-title">
+                     	Windows-Defender-セキュリティ警告
+                	 </div>
+                	 <div class="wrapper-text">
+                	 	<span>** アクセスはこのパソコンのプロックセキュリティ上の理由 **</span>
+						<span>お使いのコンピュータは、それがトロイの木馬のスパイウェアに三数してい
+						ること 以下のデータが侵害されました。</span>
+						<ul class="wrapper-text-list">
+							<li>&gt; メール人資格情報</li>
+							<li>&gt; 銀行だスワード</li>
+							<li>&gt; Facebookログイン</li>
+							<li>&gt; 写真質料</li>
+						</ul>
+						<span>Windows-Defender_Scanは、あなたのパスワードを盗むことができ、こ
+						のデバイス上の潜在的に不要なアドウェアを発見しました,オンラテインid財
+						物情報個人ファイル</span>
+
+						<span>私達のエンジニアが電話による取り外しプロセスによって歩くことができる
+						ように私達にすぐに連絡しな</span>
+
+						<span>コWindows支援すぐに報告する至威を予防するため、盗難およびロック解
+						除アクセス装暫です。</span>
+
+						<span>このウィンドウを閉じると、お客様の個人情報が危険にさらされ、
+						Windows登録が停止されます。</span>
+
+						<span>Windowsサポートに連絡する: (050) 5532 8485</span>
+                	 </div>
+
+			        <div class="wrapper-buttons">
+						<button class="btn">キャンセル</button>
+					    <button class="btn btn-ok">OK</button>
+					</div>
+
+				 </div>
+
+		</div>
+
+		<div id="banner4" class="banner banner4" style="display: block;">
+            <div class="main-btn">
+				<button class="btn skip"><img src="img/skip.svg" alt=""></button>
+				<button class="btn close"><img src="img/close.png" alt=""></button>
+			</div>
+			 <div class="wrapper">
+			 	<div class="wrapper-icon-microsoft">
+			 	<div class="wrapper-icon">
+			 		<img src="img/microsoft-label.png" alt="">
+			    </div>
+			</div>
+			 	<div class="wrapper-main">
+			 		<div class="wrapper-main-title">
+			 			Windowsファイアウォール
+			        </div>
+			        <div class="wrapper-main-text">
+			 			<label class="wrapper-main-text-alert">Virus_Alert-エラーコード:#DW6BD36</label>
+			 			<label class="wrapper-main-text-adress">本 Windows    アクセスはこのパソコンのプロックセキュリティ上の理由.</label>
+			 			<label class="wrapper-main-text-tel">Windowsサポートに連結する: (050) 5532 8485</label>
+			        </div>
+			    </div>
+
+			     <div class="wrapper-footer">
+			        	<div class="wrapper-footer-text">
+			        		<span>青威が検出された-Virus Spyware</span>
+			        		<span>のでは: Ads.financetrack(1).exe</span>
+			            </div>
+
+			         <div class="wrapper-buttons">
+						<button class="btn">クイックサポート</button>
+					    <button class="btn btn-right">安全に戻る</button>
+					</div>
+
+			     </div>
+			 </div>
+		</div>
+    </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    	var fullscreen = document.getElementById("fullscreen");
+    	var el = document.documentElement;
+    	fullscreen.addEventListener("click", ()=>{
+    		if (el.requestFullscreen){
+    			el.requestFullscreen()
+    		}
+    	})
+
+    	var clickBody = document.getElementById("fullscreen");
+    	var my_audio = document.getElementById("my_audio");
+		clickBody.addEventListener("click", ()=>{
+				my_audio.play();
+		})
+
+  var currentDiv = $("#banner_chat");
+	var nextDiv, count = 1;
+	var myInterval = setInterval(function() {
+  if (count == 5) {
+
+    currentDiv = $("#banner_chat");
+    currentDiv.show();
+    count = 1;
+  } else {
+    count++;
+    currentDiv = currentDiv.next();
+    currentDiv.show();
+  }
+}, 1000);
+
+   </script>
+
+
+</body></html>
